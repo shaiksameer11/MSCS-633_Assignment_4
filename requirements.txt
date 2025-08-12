@@ -1,0 +1,35 @@
+# Fraud Detection System Dependencies
+# Updated for working implementation with custom AutoEncoder
+
+# Core machine learning and data processing libraries
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# PyOD - Python Outlier Detection library (for Isolation Forest, LOF, etc.)
+pyod>=1.0.0
+
+# Visualization libraries
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Deep learning backend for custom AutoEncoder implementation
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# Progress bars and utilities
+tqdm>=4.62.0
+
+# Optional: If you want to use PyTorch models instead of TensorFlow
+# torch>=1.9.0
+# torchvision>=0.10.0
+# torchaudio>=0.9.0
+
+# Optional: Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Development and testing (optional)
+pytest>=7.0.0
+flake8>=4.0.0
+black>=22.0.0
